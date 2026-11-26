@@ -1,23 +1,32 @@
 <div align="center">
 
-# CV Website
+# Francisco Martins · CV
 
-Francisco Martins: computer engineering student at IST and national team gymnast.
+**Computer engineering student at Técnico. National team gymnast.**
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite">
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white" alt="Framer Motion">
+My curriculum as a one-page interactive website,<br>
+in English and Portuguese, with a light and a dark theme, and a separate sports CV.
 
-</div>
+[![Stars](https://img.shields.io/github/stars/franciscogfsm/CV-Website?style=flat&color=E3B341)](https://github.com/franciscogfsm/CV-Website/stargazers)
+[![Licence](https://img.shields.io/github/license/franciscogfsm/CV-Website?style=flat&label=licence&color=A42E2B)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/franciscogfsm/CV-Website?style=flat&label=updated&color=2EA043)](https://github.com/franciscogfsm/CV-Website/commits)
+[![Top language](https://img.shields.io/github/languages/top/franciscogfsm/CV-Website?style=flat&color=0969DA)](https://github.com/franciscogfsm/CV-Website)
 
 <br>
 
-A one-page interactive CV: professional summary, education, experience, technical skills, sport and
-languages, with motion on scroll.
+<img src="docs/assets/screenshot.webp" width="820" alt="Francisco Martins CV website">
 
-## Start
+</div>
+
+## What's on it
+
+- **Professional summary, experience and goals.** Cybersecurity, ethical hacking and full-stack work.
+- **Technical skills.** With levels, animated on scroll.
+- **Sports CV.** One button switches to my gymnastics career with the Portuguese national team.
+- **EN / PT.** One click to switch language.
+- **Light and dark.** Follows your choice.
+
+## Run it
 
 ```bash
 npm install
@@ -25,10 +34,18 @@ npm run dev
 ```
 
 | Command | What it does |
-|---|---|
+| --- | --- |
 | `npm run dev` | Development server |
 | `npm run build` | Production build in `dist/` |
 | `npm run preview` | Serve the production build |
 | `npm run lint` | Lint |
 
-All the content is in `src/App.tsx`.
+All the content lives in [`src/App.tsx`](src/App.tsx).
+
+## Built with
+
+React · TypeScript · Vite · Tailwind CSS · Framer Motion · Lucide
+
+## Licence
+
+[MIT](LICENSE) © Francisco Martins
